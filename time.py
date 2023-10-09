@@ -13,7 +13,7 @@ def focus_timer(work_minutes, break_minutes):
         time.sleep(break_minutes * 60)  # Convert minutes to seconds
 
 if __name__ == "__main__":
-    work_time = 55  # minutes
+    work_time = 25  # minutes
     break_time = 5   # minutes
 
     focus_timer(work_time, break_time)
